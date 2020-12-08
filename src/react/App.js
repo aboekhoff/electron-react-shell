@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
+import { channels } from '../shared/constants';
+const { ipcRenderer } = window;
+
 function App() {
   return (
     <div className="App">
